@@ -23,11 +23,11 @@ var $grid = $('.property_container').isotope({
   $('.button-group').each( function( i, buttonGroup ) {
     var $buttonGroup = $( buttonGroup );
     $buttonGroup.on( 'click', 'button', function( event ) {
-      alert('here')
-      // $buttonGroup.find('.is-checked').removeClass('is-checked');
-      // var $button = $( event.currentTarget );
-      // alert($button);
-      // $button.addClass('is-checked');
+      // alert('here')
+      $buttonGroup.find('.is-checked').removeClass('is-checked');
+      var $button = $( event.currentTarget );
+      
+      $button.addClass('is-checked');
     });
   });
     
@@ -50,7 +50,5 @@ var $grid = $('.property_container').isotope({
    
   });
 
-  $('.red').on('click' , function(event){
-    event.currentTarget.addClass('blue')
-  }) ;
+
   
