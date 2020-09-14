@@ -1381,7 +1381,7 @@ header.header-nav.menu_style_home_one.style2.home10 .ace-responsive-menu > li:fi
 header.header-nav.menu_style_home_one.style2.home10 .ace-responsive-menu > li:first-child ul.sub-menu,
 header.header-nav.menu_style_home_one.style2.home10 .ace-responsive-menu > li:nth-child(2) ul.sub-menu,
 header.header-nav.menu_style_home_one.style2.home10 .ace-responsive-menu > li:nth-child(2) ul.sub-menu:before{
-  background-color: #1d293e;
+  background-color:#153084;
 }
 header.header-nav.menu_style_home_one.style2.home10 a.navbar_brand span,
 header.header-nav.menu_style_home_one.style2.home10 .ace-responsive-menu li a,
@@ -2997,7 +2997,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   text-transform: capitalize;
 }
 .home10-mainslider .home-content{
-  padding-top: 15px;
+  padding-top: 70px;
 }
 .home_iconbox_container{
   left: 0;
@@ -3247,7 +3247,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   border-radius:8px;
   
   background-color:#ffffff;
-  color:#ff5a5f;
+  color:#153084;
   font-size:18px;
   padding:12px 50px;
   -webkit-transition: all 0.3s ease 0s;
@@ -3262,7 +3262,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 .banner-style-one .active .banner-btn:hover,
 .banner-style-one .active .banner-btn:active,
 .banner-style-one .active .banner-btn:focus{
-  background-color:#ff5a5f;
+  background-color:#153084;
   border:2px solid #222;
   color:#fff;
 }
@@ -4338,7 +4338,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 .feat_property {
   min-height: 400px;
   background-color: #ffffff;
-  border: 1px solid #ebebeb;
+  /* border: 1px solid #ebebeb; */
   border-radius: 8px;
   margin-bottom: 30px;
   overflow: hidden;
@@ -4350,11 +4350,20 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 .feat_property:hover{
   cursor: pointer;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(19, 19, 28, 0.12);
+  /* -webkit-box-shadow: 0px 0px 30px 0px rgba(19, 19, 28, 0.12);
   -moz-box-shadow: 0px 0px 30px 0px rgba(19, 19, 28, 0.12);
-  -o-box-shadow: 0px 0px 30px 0px rgba(19, 19, 28, 0.12);
-  box-shadow: 0px 0px 30px 0px rgba(19, 19, 28, 0.12);
+  -o-box-shadow: 0px 0px 30px 0px rgba(19, 19, 28, 0.12); */
+  /* box-shadow: 0px 0px 30px 0px rgba(19, 19, 28, 0.12); */
+  box-shadow: 0px 0px 30px 0px rgba(33, 78, 211, 0.6);
+  background: #1B3FAB ;
+  
 }
+
+.feat_property:hover .details .tc_content{
+  color:#fff  !important ; 
+}
+
+
 .feat_property .thumb{
   background-color: #1d293e;
   border-radius: 8px;
@@ -4654,12 +4663,22 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   color: #484848;
   line-height: 1.2;
 }
+.feat_property:hover .details .tc_content p{
+  
+  color: #fff;
+  
+}
 .feat_property .details .tc_content h4{
   font-size: 18px;
   font-family: "Nunito";
   color: #484848;
   font-weight: bold;
   line-height: 1.2;
+}
+.feat_property:hover .details .tc_content h4{
+  
+  color: #fff;
+  
 }
 .feat_property .details .tc_content .prop_details{
   margin-bottom: 0;
@@ -4675,6 +4694,11 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   font-family: "Nunito";
   color: #484848;
   line-height: 1.2;
+}
+.feat_property:hover .details .tc_content .prop_details li a{
+  
+  color: #fff;
+ 
 }
 .feat_property .details .tc_content .prop_details li:last-child{
   margin-right: 0;
@@ -4998,7 +5022,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   position: relative;
 }
 .properti_city .thumb img{
-  max-height:180px;
+  max-height:250px;
   -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
@@ -5858,10 +5882,10 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   -webkit-box-shadow: 0px 0px 50px 0px rgba(19, 19, 28, 0.12);
   -moz-box-shadow: 0px 0px 50px 0px rgba(19, 19, 28, 0.12);
   -o-box-shadow: 0px 0px 50px 0px rgba(19, 19, 28, 0.12);
-  box-shadow: 0px 0px 50px 0px rgba(19, 19, 28, 0.12);
+  box-shadow: 0px 0px 50px 0px rgba(19, 19, 28, 0.5);
 }
 .why_chose_us .icon{
-  background-color: #ffe8e9;
+  background-color: #B8C7F4;
   border-radius: 50%;
   height: 130px;
   line-height: 130px;
@@ -5873,7 +5897,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   transition: all 0.3s ease;
 }
 .why_chose_us:hover .icon{
-  background-color: #ff5a5f;
+  background-color:#214ED3 ;
 }
 .why_chose_us:hover .icon span{
   color: #ffffff;
@@ -6234,11 +6258,11 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 .parner_reg_btn a.btn{
   border-radius: 8px;
-  background-color: rgb(255, 120, 124);
+  background-color: rgb(33, 78, 211);
   -webkit-box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
   -moz-box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
   -o-box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
-  box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
+  box-shadow:0px 1px 4px 0px rgba(144, 168, 238, 0.3);
   height: 60px;
   line-height: 50px;
   width: 200px;
@@ -6250,8 +6274,8 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 .parner_reg_btn a.btn:hover,
 .parner_reg_btn a.btn:active,
 .parner_reg_btn a.btn:focus{
-  background-color: #ffffff;
-  color: #ff5a5f;
+  background-color:#fff ;
+  color: #214ED3;
 }
 .parner_reg_btn.home5 a.btn{
   background-color: #ffffff;
@@ -7005,10 +7029,10 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   padding: 80px 0 70px;
 }
 .footer_one {
-  background-color: #24324a;
+  background-color: #153084;
 }
 .footer_middle_area{
-  background-color: #1d293e;
+  background-color: #153075;
 }
 .footer_bottom_area {
   background-color: #484848;
@@ -7781,7 +7805,7 @@ ul.ab_counting li:last-child{
   position: relative;
 }
 .team_member .thumb .overylay{
-  background-color: rgba(255, 90, 95, .8);
+  background-color: rgba(33, 78, 211, .6);
   bottom: 0;
   left: 0;
   opacity: 0;
@@ -13273,7 +13297,7 @@ a.btn.btn_error{
   background-color: #f6f6f6;
 }
 .bgc-f7 {
-  background-color: #f7f7f7;
+  background-color: #214ED3;
 }
 .bgc-f8 {
   background-color: #f8f8f8;
@@ -16535,5 +16559,10 @@ left:0;top:0;height:100%;
   text-decoration: underline;
 }
 
+.text-white {
+  color: #fff !important ;
+}
 
-
+.img-50{
+  max-width:50% ;
+}
