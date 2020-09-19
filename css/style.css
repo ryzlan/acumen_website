@@ -16663,3 +16663,8 @@ left:0;top:0;height:100%;
 .owl-dot span{
   background: #fff !important ;
 }
+
+
+.header .stylehome1{
+  background-color: var(--tertiaryColor) !important ;
+}

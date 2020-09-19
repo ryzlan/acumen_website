@@ -20,7 +20,7 @@
   }
 }
 .header.stylehome1{
-  background-color: #0a0a0a !important;
+  background-color:#63ace5 ;
   position: relative;
   z-index: 1;
 }
@@ -175,7 +175,7 @@ header.stylehome1.home4 a {
   .header_user_notif.dashbord_pages_mobile_version li.user_notif:first-child{margin-right: 10px;}
   .stylehome1.dashbord_mobile_logo.dashbord_pages .nav_logo_img{margin-left: 0 !important;}
 
-  .stylehome1:before,.header.stylehome1{background-color: #ffffff !important;}
+  .stylehome1:before,.header.stylehome1{background-color: #63ace5 !important;}
   .stylehome1.home2, .stylehome1.home2:before{background-color: #141414 !important;border-bottom: none;}
   .stylehome1.home3 .header.stylehome1{border-bottom: none !important;}
 }
