@@ -4572,6 +4572,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   left: 20px;
   line-height: 1.2;
   position: absolute;
+  transition:all .4s ease-in;
 }
 .feat_property.home8{
   overflow: visible;
@@ -4840,10 +4841,10 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.09);
 }
 .feat_property.home7:hover{
-  -webkit-box-shadow:0px 0px 50px 0px rgba(19, 19, 28, 0.12);
-  -moz-box-shadow:0px 0px 50px 0px rgba(19, 19, 28, 0.12);
-  -o-box-shadow:0px 0px 50px 0px rgba(19, 19, 28, 0.12);
-  box-shadow:0px 0px 50px 0px rgba(19, 19, 28, 0.12);
+  -webkit-box-shadow:0px 0px 30px 0px rgba(19, 19, 28, 0.3);
+  -moz-box-shadow:0px 0px 30px 0px rgba(19, 19, 28, 0.3);
+  -o-box-shadow:0px 0px 30px 0px rgba(19, 19, 28, 0.3);
+  box-shadow: 0px 0px 30px 0px rgba(19, 19, 28, 0.3);
 }
 .feat_property.home7.style2{
   border: none;
@@ -4892,7 +4893,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   border-radius: 8px;
 }
 .feat_property.home7 .details{
-  background-color: #ffffff;
+  
   border-radius: 0 0 8px 8px;
 }
 .feat_property.agent .thumb img,
@@ -5483,7 +5484,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   outline: none;
 }
 .faq_according .accordion .card.floor_plan .card-header.active .btn-link{
-  color: #484848;
+  color: #222;
 }
 .faq_according .accordion .card.floor_plan .card-header.active{
   border: 1px solid #ebebeb;
@@ -5600,13 +5601,14 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 .lsd_list li{
   border-radius: 8px;
-  background-color: rgb(247, 247, 247);
+  background-color: var(--tertiaryColor);
+  color: #fff !important ;
   height: 40px;
   padding: 6px 25px;
   text-align: center;
 }
 .lsd_list li a{
-  color: #484848;
+  color: #fff !important ;
   font-size: 14px;
   font-family: "Nunito";
   color: rgb(72, 72, 72);
@@ -5680,6 +5682,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   line-height: 2.857;
 }
 .property_attachment_area{
+  margin-top: 20px ;
   border-radius: 0 0 8px 8px;
 }
 .property_attachment_area,
@@ -5973,7 +5976,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   color: #ffffff;
 }
 .why_chose_us .icon span{
-  color: #ff5a5f;
+  color:var(--red);
   font-size: 68px;
   line-height: 130px;
 }
@@ -5999,7 +6002,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   background-color: #f7f7f7;
 }
 .why_chose_us.style2:hover:before{
-  background-color: #ff5a5f;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
   bottom: 0;
   content: "";
   height: 5px;
@@ -6009,9 +6012,8 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   width: 100%;
 }
 .why_chose_us.style2:hover .icon{
-  background-image: -moz-linear-gradient( 0deg, rgb(250,124,65) 0%, rgb(255,101,101) 100%);
-  background-image: -webkit-linear-gradient( 0deg, rgb(250,124,65) 0%, rgb(255,101,101) 100%);
-  background-image: -ms-linear-gradient( 0deg, rgb(250,124,65) 0%, rgb(255,101,101) 100%);
+  
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
 }
 .features_row{
   border-radius: 8px;
@@ -7562,7 +7564,7 @@ ul.ab_counting li:last-child{
   display: inline-flex;
 }
 .about_counting .icon span{
-  color: #ff5a5f;
+  color: #fff;
   font-size: 40px;
   line-height: 1.2;
 }
@@ -9322,11 +9324,11 @@ a.btn.btn_error{
   border: 1px solid #ebebeb;
   border-radius: 8px !important;
   height: 52px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   padding: 10px 15px;
 }
 .faq_according .accordion .card .card-header.active{
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #ff5a5f;
 }
 .faq_according .accordion .card .card-header .btn-link{
@@ -9827,7 +9829,7 @@ a.btn.btn_error{
   position: relative;
 }
 .order_list li a span{
-  color: #ff5a5f;
+  color: var(--red);
   left: 0;
   position: absolute;
 }
@@ -12270,7 +12272,7 @@ a.btn.btn_error{
 }
 .application_statics{
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: var(--secondaryColor);
   -webkit-box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.09);
   -moz-box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.09);
   box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.09);
@@ -12980,10 +12982,10 @@ a.btn.btn_error{
   margin-bottom: 30px;
 }
 .form_grid .contact_form input{
-  border: 1px solid #ebebeb;
+  border: 1px solid #212121;
   border-radius: 8px;
   background-color: #ffffff;
-  color: #484848;
+  color: #222;
   font-size: 14px;
   height: 50px;
   line-height: 1.2;
@@ -12992,22 +12994,22 @@ a.btn.btn_error{
 }
 .form_grid .contact_form textarea.form-control{
   background-color: #ffffff;
-  border: 1px solid #ebebeb;
+  border: 1px solid #212121;
   border-radius: 8px;
   font-size: 14px;
   font-family: "Nunito";
-  color: #484848;
+  color: #222;
   line-height: 1.2;
   margin-bottom: 25px;
   padding: 20px;
 }
 .form_grid .contact_form button{
   border-radius: 8px;
-  background-color: #ff5a5f;
-  -webkit-box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
-  -moz-box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
-  -o-box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
-  box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
+  background-color: var(--red);
+  -webkit-box-shadow:0px 1px 4px 0px rgba(0, 0,0, 0.1);
+  -moz-box-shadow:0px 1px 4px 0px rgba(0, 0,0, 0.1);
+  -o-box-shadow:0px 1px 4px 0px rgba(0, 0,0, 0.1);
+  box-shadow:0px 1px 4px 0px rgba(0, 0,0, 0.1);
   font-size: 16px;
   font-family: "Nunito";
   color: #ffffff;
@@ -13105,7 +13107,7 @@ a.btn.btn_error{
   width: 100% !important;
 }
 .text-thm {
-  color: #ff5a5f !important;
+  color: var(--red) !important;
 }
 .hvr-text-thm:hover {
   color: #ff5a5f !important;
@@ -16246,6 +16248,7 @@ canvas {
   background-color: #ffffff;
   border-bottom: 1px solid #ebebeb;
   border-radius: 8px;
+  display: none ;
 }
 .shop_single_tab_content .mbp_pagination_comments{
   margin-top: 0;
@@ -16309,7 +16312,7 @@ ul.total_reivew_view .star_list li:last-child a{
 }
 .shop_single_tab_content .nav-tabs .nav-link.active{
   border-bottom: 1px solid #ff5a5f;
-  color: #ff5a5f;
+  color: var(--red);
 }
 .mbp_comment_form.style2{
   padding: 10px 30px 30px;
@@ -16559,7 +16562,7 @@ left:0;top:0;height:100%;
 }
 
 .catagory_header{
-  background-color: #ff5a5f;
+  background-color: var(--red);
   border-radius: 4px;
   width: 100% ;
   
@@ -16667,4 +16670,46 @@ left:0;top:0;height:100%;
 
 .header .stylehome1{
   background-color: var(--tertiaryColor) !important ;
+}
+
+.about-section{
+  background: var(--secondaryColor);
+}
+
+.w85{
+  max-width: 85% !important ;
+}
+.matter{
+  background-color:var(--primaryColor);
+}
+
+.qualities{
+  background-color:var(--tertiaryColor);
+}
+
+.our-contact{
+  background-color:var(--tertiaryColor)
+}
+
+.our-listing{
+  background-color: var(--secondaryColor)
+}
+
+.feat_property:hover .thumb .thmb_cntnt a.fp_price{
+  font-size: 20px ;
+  text-decoration: underline ;
+}
+.listing-title-area{
+  background-color:var(--secondaryColor);
+}
+
+.single_property_title h2{
+  color: #222;
+}
+.single_property_title p{
+  color:#222;
+}
+
+.collapse{
+  background-color: var(--secondaryColor)
 }

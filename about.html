@@ -53,14 +53,16 @@
 		    <nav>
 		        <!-- Menu Toggle btn-->
 		        <div class="menu-toggle">
-		            <img class="nav_logo_img img-fluid" src="images/logo/logo3.png" alt="header-logo.png"/> 
+		            <img class="nav_logo_img custom_height img-fluid" src="images/logo/logo3.png" alt="header-logo.png">
+		            <button type="button" id="menu-btn">
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
 		            </button>
 		        </div>
 		        <a href="#" class="navbar_brand float-left dn-smd">
-		            <img class="logo1 img-fluid" src="images/logo/logo3.png" alt="header-logo.png">
+		            <img class="logo1 custom_height img-fluid" src="images/logo/logo3.png" alt="header-logo.png">
+		            <img class="logo2 custom_height img-fluid" src="images/logo/logo3.png" alt="header-logo2.png">
 		        </a>
 		        <!-- Responsive Menu Structure-->
 		        <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
@@ -115,26 +117,39 @@
 		            <li class="last">
 		                <a href="contacts.html"><span class="title">Contact</span></a>
 		            </li>
-	                
 		        </ul>
 		    </nav>
 		</div>
 	</header>
-    <section class="inner_page_breadcrumb">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-6">
-					<div class="breadcrumb_content">
-						<ol class="breadcrumb">
-						    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-						    <li class="breadcrumb-item active" aria-current="page">About Us</li>
-						</ol>
-						<h1 class="breadcrumb_title">What Makes Us Tick </h1>
-					</div>
+	
+	
+
+	<!-- Main Header Nav For Mobile -->
+	<div id="page" class="stylehome1 h0">
+		<div class="mobile-menu">
+			<div class="header stylehome1">
+				<div class="main_logo_home2 text-center">
+                    <img class="nav_logo_img imgfluid  mt10" src="images/logo/logosmaller.png" alt="header-logo.png"/> 
 				</div>
+				<ul class="menu_bar_home2">
+	                <li class="list-inline-item list_s"><a href="page-register.html"></a></li>
+					<li class="list-inline-item"><a href="#menu"><span></span></a></li>
+				</ul>
 			</div>
-		</div>
-	</section>
+		</div><!-- /.mobile-menu -->
+		<nav id="menu" class="stylehome1">
+			<ul>
+				<li><a href="index.html"><span>Home</span></a>
+				</li>
+				<li><a href="property.html"><span>Property</span></a>
+                </li>
+                <li><a href="about.html"><span>About</span></a>
+				</li>
+				<li><a href="page-contact.html">Contact</a></li>
+                
+			</ul>
+		</nav>
+	</div>
 
 	<!-- About Text Content -->
 	<section class="about-section">
@@ -142,7 +157,7 @@
 			<div class="row">
 				<div class="col-lg-6 offset-lg-3">
 					<div class="main-title text-center">
-						<h2 class="mt0">Our Mission </h2>
+						<h2 class="mt0 text-blc">Our Mission </h2>
 					</div>
 				</div>
 			</div>
@@ -157,9 +172,9 @@
 						<ul class="ab_counting">
 							<li class="list-inline-item">
 								<div class="about_counting">
-									<div class="icon"><span class="flaticon-user"></span></div>
+									<div class="icon"><span class="flaticon-user "></span></div>
 									<div class="details">
-										<h3>80,123</h3>
+										<h3 class="text-blc">80,123</h3>
 										<p>Customers to date</p>
 									</div>
 								</div>
@@ -168,7 +183,7 @@
 								<div class="about_counting">
 									<div class="icon"><span class="flaticon-home"></span></div>
 									<div class="details">
-										<h3>$74 Billion</h3>
+										<h3 class="text-blc"> $74 Billion</h3>
 										<p>In home sales</p>
 									</div>
 								</div>
@@ -177,7 +192,7 @@
 								<div class="about_counting">
 									<div class="icon"><span class="flaticon-transfer"></span></div>
 									<div class="details">
-										<h3>$468 Million</h3>
+										<h3 class="text-blc">$468 Million</h3>
 										<p>In Savings</p>
 									</div>
 								</div>
@@ -187,30 +202,46 @@
 				</div>
 				<div class="col-lg-4 col-xl-5">
 					<div class="about_thumb">
-						<img class="img-fluid w100" src="images/about/a4.jpg" alt="1.jpg">
-						<a class="popup-iframe popup-youtube color-white" href="https://www.youtube.com/watch?v=9qA4MEGt51A"><i class="flaticon-play"></i></a>
+						<img class="img-fluid w85" src="images/about/a4.jpg" alt="1.jpg">
 					</div>
 				</div>
 			</div>
+			
+			
+			
+		</div>
+	</section>
+
+	<!-- MAtter -->
+	<section class="matter">
+		<div class="container">
 			<div class="row mt50">
 				<div class="col-lg-6 offset-lg-3">
 					<div class="main-title ">
-						<h2 class="text-center">What Matter To Us The Most</h2>
-						<p class="text-left">The customer experience, especially in the real-estate industry, is a major differentiator in business today. Customers are becoming more demanding, competition more al. Customers have an unprecedented choice and their expectations are rising. Here in Acumen, we understand what customers need and aim accordingly.
-                           <br>     
-                           <br> 
-                        Simply acquiring new customers is no guarantee of a profitable relationship. The need for winning and retaining customers has never been more pertinent and in Acumen, we cultivate loyalty and provide superior customer experiences to grow.
-                        <br>     
-                        <br> 
-                        Companies that provide an excellent customer experience and deliver upon their brand promise stand out from their competitors. That is exactly what we are doing in Acumen, we VALUE our customers.</p>
+						<h2 class="text-center text-white">What Matter To Us The Most</h2>
+						<p class="text-left text-white">The customer experience, especially in the real-estate industry, is a major differentiator in business today. Customers are becoming more demanding, competition more al. Customers have an unprecedented choice and their expectations are rising. Here in Acumen, we understand what customers need and aim accordingly.
+						   <br>     
+						   <br> 
+						Simply acquiring new customers is no guarantee of a profitable relationship. The need for winning and retaining customers has never been more pertinent and in Acumen, we cultivate loyalty and provide superior customer experiences to grow.
+						<br>     
+						<br> 
+						Companies that provide an excellent customer experience and deliver upon their brand promise stand out from their competitors. That is exactly what we are doing in Acumen, we VALUE our customers.</p>
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
+
+	<!-- Qualities -->
+	<section class="qualities">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-lg-3 col-xl-3">
 					<div class="why_chose_us style2">
 						<div class="icon">
-							<span class="flaticon-high-five"></span>
+							<span class="">
+								<img src="./images/about/ai2.png" />
+							</span>
 						</div>
 						<div class="details">
                             <h4>Effectiveness</h4>
@@ -222,7 +253,9 @@
 				<div class="col-md-6 col-lg-3 col-xl-3">
 					<div class="why_chose_us style2">
 						<div class="icon">
-							<span class="flaticon-home-1"></span>
+							<span class="">
+								<img src="./images/about/ai5.png" />
+							</span>
 						</div>
 						<div class="details">
                             <h4>Quality Oriented </h4>
@@ -234,7 +267,9 @@
                 <div class="col-md-6 col-lg-3 col-xl-3">
 					<div class="why_chose_us style2">
 						<div class="icon">
-							<span class="flaticon-home-1"></span>
+							<span class="">
+								<img src="./images/about/ai4.png" />
+							</span>
 						</div>
 						<div class="details">
                             <h4>Honesty</h4>
@@ -246,7 +281,10 @@
 				<div class="col-md-6 col-lg-3 col-xl-3">
 					<div class="why_chose_us style2">
 						<div class="icon">
-							<span class="flaticon-profit"></span>
+							<span>
+
+								<img src="./images/about/ai1.png" />
+							</span>
 						</div>
 						<div class="details">
                             <h4>Controlled Environment</h4>
@@ -259,9 +297,6 @@
 		</div>
 	</section>
 
-	<!-- Our Team -->
-	
-
 	
 
 	<!-- Our Partners -->
@@ -270,8 +305,8 @@
 			<div class="row">
 				<div class="col-lg-6 offset-lg-3">
 					<div class="main-title text-center">
-						<h2>Our Partners</h2>
-						<p>We only work with the best companies in the Whole Country</p>
+						<h2 class="text-blc">Our Partners</h2>
+						<p class="text-blc">We only work with the best companies in the Whole Country</p>
 					</div>
 				</div>
 			</div>
@@ -303,7 +338,7 @@
 				</div>
 				<div class="col-lg-4">
 					<div class="parner_reg_btn text-right tac-smd">
-						<a class="btn btn-thm2" href="#"><i class="flaticon-black-back-closed-envelope-shape"></i></a>
+						<a class="btn btn-thm2" href="contacts.html"><i class="flaticon-black-back-closed-envelope-shape"></i></a>
 					</div>
 				</div>
 			</div>
