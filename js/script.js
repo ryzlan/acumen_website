@@ -3,14 +3,14 @@
     "use strict";
 
     /* ----- Preloader ----- */
-    function preloaderLoad() {
-        if($('.preloader').length){
-            $('.preloader').delay(200).fadeOut(300);
-        }
-        $(".preloader_disabler").on('click', function() {
-            $("#preloader").hide();
-        });
-    }
+    // function preloaderLoad() {
+    //     if($('.preloader').length){
+    //         $('.preloader').delay(200).fadeOut(300);
+    //     }
+    //     $(".preloader_disabler").on('click', function() {
+    //         $("#preloader").hide();
+    //     });
+    // }
 
     /* ----- Navbar Scroll To Fixed ----- */
     function navbarScrollfixed() {

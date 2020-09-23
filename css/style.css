@@ -7474,11 +7474,12 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 /*== Inner Pages Breadcrumb ==*/
 .inner_page_breadcrumb {
-  background-image: url(../images/about/a2.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  height: 450px;
-  position: relative;
+     background-image: url(../images/about/a2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    background-size: cover;
 }
 .inner_page_breadcrumb:before{
   background-color: rgb(29, 41, 62);
